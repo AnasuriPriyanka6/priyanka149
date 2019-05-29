@@ -11,10 +11,10 @@
         ec2:
           group: default
           instance_type: t2.micro
-          image: ami-0080e4c5bc078760e
+          image: ami-0de53d8956e8dcf80
           wait: true
           region: us-east-1
-          keypair: sudhakar1
+          keypair: vakratunda
           count: 1
           volumes:
             - device_name: /dev/xvda
